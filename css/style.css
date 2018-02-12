@@ -5,6 +5,10 @@
     font-family: 'Raleway';
 }
 
+body {
+    height: 100vh;
+}
+
 .container {
     max-width: 900px;
     width: 100%;
@@ -19,7 +23,7 @@
 
 .header__img {
     width: 100%;
-    height: auto
+    height: auto;
 }
 
 .joke__box {
