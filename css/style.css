@@ -84,5 +84,6 @@
 }
 
 .fa-2x:hover {
+    transition: 0.3s all;
     color: #ff0200;
 }
