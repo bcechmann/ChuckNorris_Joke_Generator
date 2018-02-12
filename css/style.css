@@ -75,5 +75,14 @@
 
 .footer {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social__icon {
+    cursor: pointer;
+}
+
+.fa-2x:hover {
+    color: #ff0200;
 }
