@@ -81,6 +81,7 @@
 
 .social__icon {
     cursor: pointer;
+    color: black;
 }
 
 .fa-2x:hover {
