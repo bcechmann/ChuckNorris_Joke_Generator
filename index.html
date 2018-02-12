@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Bartosz Cechmann">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Chuck Norris Joke Generator</title>
+</head>
+
+<body>
+    <header class="header container">
+        <figure>
+            <img src="css/pics/header-img.png" alt="Chuck Norris logo">
+        </figure>
+    </header>
+    <main class="container">
+        <div class="joke__box">
+            <p id="joke" class="joke__text"></p>
+            <button onclick="playSound()" id="get-joke" class="joke__button"><i class="far fa-hand-rock fa-9x"></i>
+          GET THAT JOKE</button>
+        </div>
+
+        <audio id="audio" src="sound/Punch.mp4"></audio>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
